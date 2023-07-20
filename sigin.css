@@ -1,0 +1,170 @@
+*{
+    margin: 0%;
+    
+    font-family: Open Sans,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 1.75;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background-color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.alogo{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+    max-width: 1080px;
+}
+.logo{
+   display:block ; 
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-image: url(logo_wide@x2.38f9109e24d22d58d048837b27f54390.png);
+   width: 155px;
+   height: 30px;
+   
+
+}
+h1{
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+.container{
+
+ background-color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%; 
+    box-sizing: border-box;
+     
+}
+.app1{
+    box-sizing: border-box ;
+    min-height: 100px;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px;
+    border-radius: 5px;
+    
+   
+}
+.app2{
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    width: 100%;
+}
+.f{
+   
+        box-sizing: border-box;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        border-width: 1px;
+        border-style: none;
+        border-color: rgb(223, 223, 227);
+        margin-bottom: 16px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 16px;
+        padding-left: 32px;
+        padding-right: 32px;
+}
+.h2{
+    
+        font-family: "Sharp Sans Display No1", "Open Sans", system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+        color: rgb(35, 31, 32);
+        font-weight: bold;
+        margin-top: 0px;
+        margin-bottom: 16px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.p{
+    font-family: "Open Sans", system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 0px;
+    color: rgb(35, 31, 32);
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+.ph{
+    box-sizing: border-box;
+    margin-bottom: 24px;
+   
+}
+.ph1{
+    display: block;
+    font-family: "Open Sans", system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 20px;
+    font-weight: 600;
+    margin-top: -4px;
+    padding-bottom: 4px;
+    font-size: 14px;
+    color: rgb(107, 110, 121);
+}
+.iph{
+    font-family: "Open Sans", system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(223, 223, 227);
+    padding-left: 15px;
+    padding-right: 15px;
+    color: rgb(35, 31, 32);
+    outline: none;
+    height: 44px;
+    font-size: 16px;
+}
+.bt:disabled {
+    background-color: rgb(233, 235, 238);
+    color: rgb(107, 110, 121);
+    border: none;
+}
+.bt{
+    font-family: "Open Sans", system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    padding-left: 4px;
+    padding-right: 4px;
+    line-height: 1.15;
+    font-weight: 600;
+    background-color: rgb(233, 235, 238);
+    color: rgb(107, 110, 121);
+    height: 44px;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+button{
+    cursor: pointer;
+    text-transform: none;
+}
+button span{
+    text-align: center;
+}
