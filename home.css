@@ -13,6 +13,10 @@ margin: 0;
     border: 1px solid bisque ;
     border-color:  transparent;
     overflow: hidden;
+    position: fixed;
+    box-shadow: 10px 10px 100px;
+    border: none;
+
     
 }
 
@@ -59,6 +63,7 @@ li a{
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
+
     
 }
 .second{
@@ -92,6 +97,9 @@ li a{
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
+    border-radius: 10px;
+    border: none;
+   box-shadow: 10px 10px 100px;
 
 }
 #t2{
@@ -101,8 +109,11 @@ li a{
     margin: 10px;
     background-image: url(hut300.312236d18a76801105b271168dc4fab9.133333.jpg);
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     background-size: cover;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 10px 10px 100px;
 }
 .btndiv{
     width: 100%;
