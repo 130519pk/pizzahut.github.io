@@ -16,29 +16,26 @@ margin: 0;
     position: fixed;
     box-shadow: 10px 10px 100px;
     border: none;
-
-    
+    display: flex;
+    justify-content: center;  
 }
-
-
+.head{
+    width: 80%;
+    height: 60px;  
+}
 #logo{
-    display: block;
     background-repeat: no-repeat;
     background-size: 100%;
     background-image: url(logo_wide@x2.38f9109e24d22d58d048837b27f54390.png);
     width: 155px;
     height: 30px;
-    margin-left: 50px;
     position: relative;
     top: 15px;
-  
 }
 #sign{
     position: relative;
-    position: relative;
-    right: auto;
-    left: -65px;
     top: 15px;
+    right:40px;
     font-family: "Open Sans", system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
     font-weight: normal;
     text-decoration: underline dotted;
@@ -54,7 +51,6 @@ li a{
 .head{
     display: flex;
     justify-content:space-between;
-
 }
 .first{
     width: 100%;
@@ -63,8 +59,8 @@ li a{
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-
-    
+    border: none;
+    box-shadow: 10px 10px 100px;
 }
 .second{
     width: 100%;
@@ -84,9 +80,6 @@ li a{
     background-color: whitesmoke;
     display: flex;
     justify-content: center;
-    
-    
-
 }
 #t1{
     width: 40%;
@@ -100,7 +93,6 @@ li a{
     border-radius: 10px;
     border: none;
    box-shadow: 10px 10px 100px;
-
 }
 #t2{
     width: 40%;
@@ -120,8 +112,6 @@ li a{
     height: 15vh;
     display: flex;
     justify-content: center;
-  
-
 }
 #btn{
     width: 82%;
@@ -145,7 +135,6 @@ li a{
     width: 100%;
     height: 70vh;
      background-color:#000 ;
-     
 }
 .fdiv{
  width: 100%;
@@ -167,7 +156,6 @@ li a{
     font-family: "Open Sans", system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
     font-weight: normal;
     text-underline-position: under;
-    
 }
 ul{
     list-style: none;
@@ -179,17 +167,19 @@ ul{
     font-family: "Open Sans", system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
     font-weight: normal;
     text-underline-position: under; 
-    
 }
 .ds1{
-    
     width: 50%;
     float: left;
     display: flex;
     justify-content:space-around;
     padding-top: 20px; 
-   color: whitesmoke;
-   
+    color: whitesmoke;
+
+}
+.p{
+    position: relative;
+    top: 10px;
 }
 #btn2{
     background-color: whitesmoke;
@@ -213,7 +203,6 @@ ul{
     -ms-user-select: none;
     user-select: none;
     margin-left: -235px;
-
 }
 img{
     width: 20px;
