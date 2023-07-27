@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    }
+    .mainbody{
+        width: 100%;
+        height: 1000px;
+        background-color:whitesmoke;
+    }
+    .header{
+        width: 100%;
+        height: 60px;
+        background-color: #fff;
+        border: 1px solid bisque ;
+        border-color:  transparent;
+        overflow: hidden;
+        position: fixed;
+        box-shadow: 10px 10px 100px;
+        border: none;
+        display: flex;
+        justify-content: center;  
+    }
+    .head{
+        width: 80%;
+        height: 60px;  
+    }
+    #logo{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-image: url(logo_wide@x2.38f9109e24d22d58d048837b27f54390.png);
+        width: 155px;
+        height: 30px;
+        position: relative;
+        top: 15px;
+    }
+    #sign{
+        position: relative;
+        top: 15px;
+        right:40px;
+        font-family: "Open Sans", system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: normal;
+        text-decoration: underline dotted;
+        text-underline-position: under;
+        font-size: 18px;
+        line-height: 20px;
+        color: rgb(107, 110, 121);
+        white-space: nowrap;
+    }
+    li a{
+        text-decoration: none;
+    }
+    .head{
+        display: flex;
+        justify-content:space-between;
+    }
+    .container{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        
+    }
+    .first{
+        width: 50%;
+        height: 80vh;
+        background-image:url(feedbackimg.jpg) ;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        border: none;
+        box-shadow: 10px 10px 100px;
+    }
+    .second{
+        width: 50%;
+        height: 80vh;
+        background-color: whitesmoke;
+       text-align: center;  
+        font-family: "Open Sans", system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: normal;
+        /* padding-top: 200px; */
+        
+    }
+    .fed{
+        /* display: flex;
+        justify-content: space-around; */
+    }
+    .bt1{
+        font-family: "Open Sans", system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: none;
+        padding-left: 4px;
+        padding-right: 4px;
+        line-height: 1.15;
+        font-weight: 600;
+        background-color:  rgb(4, 91, 15);
+        color: rgb(233, 235, 244);
+        height: 44px;
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+    .bt2{
+        font-family: "Open Sans", system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: none;
+        padding-left: 4px;
+        padding-right: 4px;
+        line-height: 1.15;
+        font-weight: 600;
+        background-color: rgb(4, 91, 15);
+        color: rgb(233, 235, 244);
+        height: 44px;
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+    .footer{
+        width: 100%;
+        height: 60vh;
+         background-color:#000 ;
+    }
+    .fdiv{
+     width: 100%;
+     height: 200px;
+     display: flex;
+     justify-content: space-around;
+    }
+    .fdiv a{
+        
+        color: whitesmoke;
+    }
+    .ds{
+        width: 100%;
+        height: 150px;
+        float: left;
+        padding: 30px;
+        color: whitesmoke;
+        text-shadow: none;
+        font-family: "Open Sans", system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: normal;
+        text-underline-position: under;
+        font-size: .8rem;
+        font-weight: 400;
+    }
+    ul{
+        list-style: none;
+    }
+    .appstore1{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        
+        
+        
+       
+     } 
+    .appstore2 {
+     
+       width: 100px;
+       height: 40px;
+       border-radius: 5px;
+       border: none;
+       position: relative;
+      right: 10px;
+    
+    }
+    .appstore3 {
+     
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        position: relative;
+        left: 10px;
+    
+     } 
+     .appstore4 {
+     
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+    
+     } 
+    
+    .fdiv1{
+        width: 100%;
+        
+        padding-top: 20px; 
+        font-family: "Open Sans", system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: normal;
+        text-underline-position: under; 
+        display: flex;
+        justify-content:space-around;
+        
+        
+      
+    
+    }
+    .ds1{
+        width: 40%;
+        float: left;
+        display: flex;
+        justify-content:space-around;
+        color: whitesmoke;
+      
+       
+       
+    
+    }
+    .ds1 a{
+        text-decoration: none;
+    }
+    .p{
+        position: relative;
+        top: 10px;
+        right: 55px;
+      
+        
+    }
+    #btn2{
+        background-color: whitesmoke;
+        font-size: 11px;
+        color: #78838c;
+        font-weight: 400;
+        border: 1px solid #d9dde3;
+        font-size: 1.2rem;
+        align-items: center;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        min-height: 40px;
+        outline: 0;
+        padding-left: 9px;
+        padding-right: 9px;
+        position: relative;
+        text-decoration: none;
+        white-space: nowrap;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        margin-left: -235px; 
+        position: relative;
+        left: 80px;
+      
+    }
+    img{
+        width: 18px;
+    }
+    button :hover {
+        color: #e9ebee;
+    }
+    .fdiv2{
+        text-align: center;
+        font-family: "Open Sans", system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: normal;
+        text-underline-position: under;
+        background-color: #000;
+        padding-top: 10px;
+        font-size: 11px;
+        color: #78838c;
+        padding: 20px;
+    }
+    #img{
+        width: 150px;  
+        height: 150px;
+    }
+    

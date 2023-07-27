@@ -220,9 +220,13 @@ ul{
     display: flex;
     justify-content:space-around;
     color: whitesmoke;
+  
    
    
 
+}
+.ds1 a{
+    text-decoration: none;
 }
 .p{
     position: relative;
@@ -242,7 +246,7 @@ ul{
     border-radius: 6px;
     display: flex;
     justify-content: center;
-    min-height: 44px;
+    min-height: 40px;
     outline: 0;
     padding-left: 9px;
     padding-right: 9px;
@@ -254,7 +258,7 @@ ul{
     user-select: none;
     margin-left: -235px; 
     position: relative;
-    left: 40px;
+    left: 80px;
   
 }
 img{
